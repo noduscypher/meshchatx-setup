@@ -1,11 +1,16 @@
 # meshchatx-setup
 
-MeshChatX installation and startup scripts for macOS — Reticulum mesh communication over LXMF.
+Setup notes, scripts, and documentation for MeshChatX on macOS and Reticulum-based environments.
 
-## about
+This repository documents installation, startup, configuration, and daily workflow for MeshChatX in resilient communication setups.
 
-This repository documents the installation and configuration of MeshChatX
-on macOS, connecting to a Reticulum mesh network with NomadNet and LXMF support.
+## scope
+
+- local installation on macOS
+- startup scripts for headless mode
+- configuration notes for Reticulum
+- workflow verification
+- troubleshooting references
 
 ## stack
 
@@ -13,7 +18,7 @@ on macOS, connecting to a Reticulum mesh network with NomadNet and LXMF support.
 - Reticulum Network Stack
 - LXMF
 - macOS (Apple Silicon)
-- Python 3.11 virtual environment
+- Python 3.11+ virtual environment
 
 ## requirements
 
@@ -41,7 +46,9 @@ pip install git+https://git.quad4.io/RNS-Things/MeshChatX.git
 pnpm install && pnpm run build-frontend
 ```
 
-## startup
+## typical startup
+
+Use a dedicated Python environment, start MeshChatX in headless mode, and verify access through the local browser interface.
 
 ```bash
 #!/bin/bash
@@ -54,11 +61,15 @@ meshchatx --headless --host 127.0.0.1 --port 8787 --no-https \
 
 Open browser at `http://127.0.0.1:8787`
 
-## license
+## notes
 
-Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+This repository is written for practical use, repeatability, and low-friction deployment.
+
+For remote assistance workflows, see [REMOTE-ASSIST.md](./REMOTE-ASSIST.md).
 
 ---
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 *walk quietly, but keep the signal alive.*
 

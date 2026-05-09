@@ -1,3 +1,7 @@
+Setup notes, scripts, and documentation for MeshChatX on macOS and Reticulum-based environments.
+
+These instructions are designed to integrate with a broader off-grid communication stack (Reticulum, NomadNet, LXMF and rawmesh-node), focusing on reproducible installs and low-friction daily use.
+
 # meshchatx-setup
 
 Setup notes, scripts, and documentation for MeshChatX on macOS and Reticulum-based environments.

@@ -26,7 +26,7 @@ This repository documents installation, startup, configuration, and daily workfl
 
 ## requirements
 
-- macOS 12+
+- macOS 12+ on Apple Silicon (Intel may require adjustments)
 - Python 3.11+
 - Node.js 20+
 - pnpm
@@ -72,6 +72,16 @@ This repository is written for practical use, repeatability, and low-friction de
 For remote assistance workflows, see [REMOTE-ASSIST.md](./REMOTE-ASSIST.md).
 
 ---
+
+## related repositories
+
+- `rawmesh-node` – Reticulum mesh node setup on Raspberry Pi 4 (NomadNet, LXMF, off-grid ready).  
+  https://github.com/noduscypher/rawmesh-node
+
+- `mesh-guides` – Meshtastic EU868 documentation (PT/EN/ES) for presets, roles and regulation-aware operation.  
+  https://github.com/noduscypher/mesh-guides
+
+  
 
 Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
